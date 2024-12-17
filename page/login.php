@@ -9,10 +9,9 @@ if (isset($_SESSION['id'])) {
 }
 ?>
 
-<div class="flex items-center justify-center h-screen">
-
+<div class="flex items-center justify-center">
     <div class="p-8 bg-white rounded-lg shadow-lg w-96">
-        <img class="object-cover w-40 h-40 mx-auto mb-2 rounded-full" src="/assets/img/logo.png" alt="" srcset="">
+        <img class="object-cover mx-auto mb-2 rounded-full w-28 h-28" src="/assets/img/logo.png" alt="" srcset="">
         <h1 class="mb-2 text-3xl font-bold text-center text-red-800">WARPES</h1>
         <h2 class="text-3xl font-bold text-center">Login</h2>
 
